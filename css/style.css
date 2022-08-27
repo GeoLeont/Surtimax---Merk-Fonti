@@ -1,0 +1,22 @@
+.carousel-inner img {
+    margin: auto;
+  }
+
+
+body {
+      background-color: rgb(227, 227, 227);
+  }
+
+  #side_nav{
+    background: #042326;
+    min-width: 14vw;
+    max-width: 14vw;
+  }
+
+  .content{
+    min-height: 6vh;
+    max-height: 6vh;
+    width: 100%;
+  }
+  
+ 
