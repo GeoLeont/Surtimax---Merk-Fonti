@@ -18,5 +18,9 @@ body {
     max-height: 6vh;
     width: 100%;
   }
-  
+   .table{
+    margin-bottom: auto;
+    min-height: 4vh;
+    max-height: 4vh;
+   }
  
