@@ -61,7 +61,7 @@ body {
       color: rgb(114, 19, 19);
     }
     .maxFondo {
-      background-color: #ecdfb4;
+      background-color: #f3eedb;
     }
     .vuelve {
       font-family:relieveC,monospace;
@@ -114,12 +114,12 @@ body {
 }
 
 body.fondoE{
-  background-color: #e3d691;
-opacity: 1;
-background-image:  linear-gradient(135deg, #686149 25%, transparent 25%), linear-gradient(225deg, #686149 25%, transparent 25%), linear-gradient(45deg, #686149 25%, transparent 25%), linear-gradient(315deg, #686149 25%, #e3d691 25%);
-background-position:  40px 0, 40px 0, 0 0, 0 0;
-background-size: 80px 80px;
-background-repeat: repeat;
+  background-color: #e8e8e8;
+  opacity: 1;
+  background-image:  linear-gradient(135deg, #dadad9 25%, transparent 25%), linear-gradient(225deg, #dadad9 25%, transparent 25%), linear-gradient(45deg, #dadad9 25%, transparent 25%), linear-gradient(315deg, #dadad9 25%, #e8e8e8 25%);
+  background-position:  40px 0, 40px 0, 0 0, 0 0;
+  background-size: 80px 80px;
+  background-repeat: repeat;
 }
 
 .volverBTN{
