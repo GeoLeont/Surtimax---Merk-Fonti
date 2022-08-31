@@ -52,7 +52,7 @@ body {
     }
  
     .fondoc {
-      background-color: #e9e5df;
+      background-color: #fff7f0;
     }
 
     .ops {
@@ -61,7 +61,7 @@ body {
       color: rgb(114, 19, 19);
     }
     .maxFondo {
-      background-color: #D0D7D9;
+      background-color: #ecdfb4;
     }
     .vuelve {
       font-family:relieveC,monospace;
@@ -114,11 +114,12 @@ body {
 }
 
 body.fondoE{
-  background-color: #efe7e4;
+  background-color: #e3d691;
 opacity: 1;
-background-image:  radial-gradient(#624346 2px, transparent 2px), radial-gradient(#624346 2px, #efe7e4 2px);
+background-image:  linear-gradient(135deg, #686149 25%, transparent 25%), linear-gradient(225deg, #686149 25%, transparent 25%), linear-gradient(45deg, #686149 25%, transparent 25%), linear-gradient(315deg, #686149 25%, #e3d691 25%);
+background-position:  40px 0, 40px 0, 0 0, 0 0;
 background-size: 80px 80px;
-background-position: 0 0,40px 40px;
+background-repeat: repeat;
 }
 
 .volverBTN{
@@ -164,3 +165,40 @@ background-position: 0 0,40px 40px;
   }
 }
 
+.pulse {
+  
+  
+  
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  animation: pulse 2s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
